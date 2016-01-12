@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<head></head>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./client/style.css" />
+
+<body>
+<div class="body-div"></div>
+<div class="camera-container">
+  <div class="turn-on-camera">
+    <button type="button" class="turn-on-camera-button btn" onclick="startCam()">Turn on camera</button>
+  </div>
+  <div class="live-video">
+    <div class="countdown-container">
+      <span id="countdown"></span>
+    </div>
+    <video id="camera" autoplay></video>
+    <button type="button" class="take-picture-button btn" onclick="startCountdown()"><img class="capture" src="client/capture.svg"></button>
+    <canvas id="photo" width="0" height="0"></canvas>
+    <button type="button" class="download-image-button btn" onclick="Download()">Download Image</button>
+</div>
+
+<script src="./client/camera.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #EAEAEA;
+  transition: background 1s ease;
+  height: 100%;
+  margin: 0;
+}
+
+#camera {
+  width: 100%;
+  border-radius: 3px;
+}
+
+#countdown {
+  z-index: 300;
+  color: #fff;
+  font-size: 42vw;
+  margin: -5vw 14vw;
+  position: absolute;
+  filter: alpha(Opacity=20);
+  opacity: 0.2;
+  display: none;
+}
+
+#photo {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  color: white;
+  display: inherit;
+  border-radius: 5px;
+}
+
+.body-div {
+  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squairy_light.png');
+  position: absolute;
+  filter: alpha(Opacity=10);
+  opacity: 0.1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.camera-container {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+.turn-on-camera {
+  margin: 20% auto 0 auto;
+}
+.turn-on-camera-button {
+  background-color: #4CAF50;
+  padding: 1em 2em;
+  font-size: 1em;
+  margin: 20% auto 0 auto;
+}
+
+.turn-on-camera-button:focus {
+  outline:0;
+}
+
+.live-video {
+  width: 50%;
+  margin: 7% auto 0 auto;
+  display: none;
+}
+
+.take-picture-button {
+  background-color: #BD0808;
+  font-size: 1.1em;
+  margin: -5em auto 0 auto;
+  position: relative;
+  z-index: 200;
+  border-radius: 112px;
+  padding: 10px 10px 6px 10px;
+  filter: alpha(Opacity=85);
+  opacity: 0.85;
+}
+
+.take-picture-button:focus {
+  outline:0;
+}
+
+.capture {
+  width: 35px;
+}
+
+.countdown-container {
+  width: 100%;
+}
+
+.download-image-button {
+  background-color: #4CAF50;
+  padding: 1em 2em;
+  font-size: 1em;
+  margin: 6% auto 0 auto;
+  display: inherit;
+  filter: alpha(Opacity=0);
+  opacity: 0;
+}
