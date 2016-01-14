@@ -2,8 +2,7 @@
 A simple photo booth for any project
 
 ## Demo
-<a href="
-http://photoboothjs.herokuapp.com">photoboothjs.herokuapp.com</a>
+http://photoboothjs.herokuapp.com
 
 ## Installation
     npm start
