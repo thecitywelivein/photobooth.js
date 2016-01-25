@@ -1,5 +1,6 @@
 # photobooth.js
-A simple photo booth for any project
+A simple photo booth for any project.
+
 Pictures are saved on server side on capture.
 
 ## Demo
